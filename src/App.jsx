@@ -30,6 +30,7 @@ function Layout({ children }) {
       <footer>
         <p>{DIRECCION}</p>
         <p>{INSTAGRAM}</p>
+        <p className="credito">Creado por Chelitowan <span aria-hidden="true">♥</span></p>
       </footer>
     </>
   );

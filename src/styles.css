@@ -32,6 +32,8 @@ body {
 main { max-width: 560px; margin: 0 auto; padding: 8px 16px 24px; }
 footer { max-width: 560px; margin: 0 auto; padding: 8px 16px 40px; text-align: center; color: var(--mu); font-size: .9rem; }
 footer p { margin: 2px 0; }
+footer .credito { margin-top: 12px; font-size: .82rem; }
+footer .credito span { color: var(--ac); }
 h2 { font: 400 1.4rem/1.2 Marcellus, Georgia, serif; margin: 28px 0 12px; }
 h3 { font-size: .95rem; font-weight: 700; color: var(--mu); margin: 14px 0 8px; }
 .op {
