@@ -30,7 +30,17 @@ function Layout({ children }) {
       <footer>
         <p>{DIRECCION}</p>
         <p>{INSTAGRAM}</p>
-        <p className="credito">Creado por Chelitowan <span aria-hidden="true">♥</span></p>
+        <p className="credito">
+          Creado por{" "}
+          <span className="creator-name" aria-label="Chelitowan">
+            {Array.from("Chelitowan").map((letter, index) => (
+              <span className="creator-letter" aria-hidden="true" key={`${letter}-${index}`} style={{ "--letter-index": index }}>
+                {letter}
+              </span>
+            ))}
+          </span>{" "}
+          <span className="creator-heart" aria-hidden="true">♥</span>
+        </p>
       </footer>
     </>
   );
